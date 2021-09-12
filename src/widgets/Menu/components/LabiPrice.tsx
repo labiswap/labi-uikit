@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { BirbRoundIcon } from "../../../components/Svg";
+import { LabiRoundIcon } from "../../../components/Svg";
 import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
 interface Props {
-  birbPriceUsd?: number;
+  labiPriceUsd?: number;
 }
 
 const PriceLink = styled.a`
@@ -21,18 +21,18 @@ const PriceLink = styled.a`
   }
 `;
 
-const BirbPrice: React.FC<Props> = ({ birbPriceUsd }) => {
-  return birbPriceUsd ? (
+const LabiPrice: React.FC<Props> = ({ labiPriceUsd }) => {
+  return labiPriceUsd ? (
     <PriceLink
-      href="https://bscscan.com/token/0x82a479264b36104be4fdb91618a59a4fc0f50650"
+      href="https://bscscan.com/token/0x75c942034fc4745596d973864994dc1cce38b3ec"
       target="_blank"
     >
-      <BirbRoundIcon width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${birbPriceUsd.toFixed(3)}`}</Text>
+      <LabiRoundIcon width="24px" mr="8px" />
+      <Text color="textSubtle" bold>{`$${labiPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />
   );
 };
 
-export default React.memo(BirbPrice);
+export default React.memo(LabiPrice);

@@ -143,32 +143,32 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/BirbDefi"
+    href: ""
   },
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/birbdefi"
+    href: "https://t.me/Labiswap"
   },
   {
     label: "Medium",
     icon: "MediumIcon",
-    href: "https://medium.com/birb"
+    href: ""
   },
   {
     label: "Instagram",
     icon: "InstagramIcon",
-    href: "https://www.instagram.com/birbdefi/"
+    href: "https://www.instagram.com/labiswap?r=nametag"
   },
   {
     label: "Youtube",
     icon: "YoutubeIcon",
-    href: "https://www.youtube.com/channel/UCofh6d6QSBGdKX9KPZh75SA"
+    href: ""
   },
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/birbdev"
+    href: "https://github.com/labiswap"
   },
 ];
 

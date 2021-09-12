@@ -5,7 +5,7 @@ import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
 import CakePrice from "./CakePrice";
-import BirbPrice from "./BirbPrice";
+import LabiPrice from "./LabiPrice";
 import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
@@ -41,7 +41,7 @@ const PanelFooter: React.FC<Props> = ({
   toggleTheme,
   isDark,
   cakePriceUsd,
-  birbPriceUsd,
+  labiPriceUsd,
   currentLang,
   langs,
   setLang,
@@ -60,7 +60,7 @@ const PanelFooter: React.FC<Props> = ({
     <Container>
       <SocialEntry>
         <CakePrice cakePriceUsd={cakePriceUsd} />
-        <BirbPrice birbPriceUsd={birbPriceUsd} />
+        <LabiPrice labiPriceUsd={labiPriceUsd} />
       </SocialEntry>
       <SocialEntry>
         <SocialLinks />

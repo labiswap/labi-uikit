@@ -354,7 +354,7 @@ var Icon$1M = function (props) {
 
 var Icon$1L = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: '/images/custom/birb-token.png' })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: '/images/custom/labi-token.png' })));
 };
 
 var Icon$1K = function (props) {
@@ -613,8 +613,8 @@ var Icon$1h = function (props) {
 };
 
 var Icon$1g = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 223 223" }, props),
-        React__default['default'].createElement("image", { width: "223", height: "223", href: '/images/custom/logo.png' })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
+        React__default['default'].createElement("image", { width: "128", height: "128", href: '/images/custom/logo.png' })));
 };
 
 var Icon$1f = function (props) {
@@ -820,8 +820,8 @@ var Icon$10 = function (props) {
 };
 
 var Icon$$ = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: '/images/custom/gbirb-token.png' })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
+        React__default['default'].createElement("image", { width: "128", height: "128", href: '/images/custom/labis-token.png' })));
 };
 
 var Icon$_ = function (props) {
@@ -3343,7 +3343,7 @@ var additionalColors = {
     silver: "#B2B2B2",
     bronze: "#E7974D",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#8b5b20", textDisabled: "#BDC2C4", textSubtle: "#508be0", disabled: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#8b5b20", textDisabled: "#BDC2C4", textSubtle: "#20a3c1", disabled: "#E9EAEB", gradients: {
         bubblegum: "linear-gradient(139.73deg, #dfe9f9 0%, rgb(243, 239, 255) 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #f9e7cc 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
@@ -3813,8 +3813,8 @@ var Icon$c = function (props) {
 
 var Logo$2 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 256 60" }, props),
-        React__default['default'].createElement("image", { width: "256", height: "60", href: isDark ? '/images/custom/logo-text-dark.png' : '/images/custom/logo-text-white.png' })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 517 120" }, props),
+        React__default['default'].createElement("image", { width: "517", height: "120", href: isDark ? '/images/custom/logo-text-dark.png' : '/images/custom/logo-text-white.png' })));
 };
 var LogoWithText = React__default['default'].memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
@@ -3925,7 +3925,7 @@ MenuButton.defaultProps = {
 var templateObject_1$i;
 
 var blink = styled.keyframes(templateObject_1$h || (templateObject_1$h = __makeTemplateObject(["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"], ["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"])));
-var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_2$8 || (templateObject_2$8 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 170px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 170px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled__default['default'](reactRouterDom.Link)(templateObject_2$8 || (templateObject_2$8 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 200px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 200px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -4086,32 +4086,32 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/BirbDefi"
+        href: ""
     },
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/birbdefi"
+        href: "https://t.me/Labiswap"
     },
     {
         label: "Medium",
         icon: "MediumIcon",
-        href: "https://medium.com/birb"
+        href: ""
     },
     {
         label: "Instagram",
         icon: "InstagramIcon",
-        href: "https://www.instagram.com/birbdefi/"
+        href: "https://www.instagram.com/labiswap?r=nametag"
     },
     {
         label: "Youtube",
         icon: "YoutubeIcon",
-        href: "https://www.youtube.com/channel/UCofh6d6QSBGdKX9KPZh75SA"
+        href: ""
     },
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/birbdev"
+        href: "https://github.com/labiswap"
     },
 ];
 var MENU_HEIGHT = 64;
@@ -4237,7 +4237,7 @@ var templateObject_1$e;
 var PriceLink$1 = styled__default['default'].a(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink$1, { href: "https://bscscan.com/token/0xa8c8b5FD46Ff21C6F482847a4f252C6Af84f54DB", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink$1, { href: "https://bscscan.com/token/0x677Cd21610Ca6bfFDE28D14999149820fa26E803", target: "_blank" },
         React__default['default'].createElement(Icon$$, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4245,13 +4245,13 @@ var CakePrice$1 = React__default['default'].memo(CakePrice);
 var templateObject_1$d;
 
 var PriceLink = styled__default['default'].a(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
-var BirbPrice = function (_a) {
-    var birbPriceUsd = _a.birbPriceUsd;
-    return birbPriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://bscscan.com/token/0x82a479264b36104be4fdb91618a59a4fc0f50650", target: "_blank" },
+var LabiPrice = function (_a) {
+    var labiPriceUsd = _a.labiPriceUsd;
+    return labiPriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://bscscan.com/token/0x75c942034fc4745596d973864994dc1cce38b3ec", target: "_blank" },
         React__default['default'].createElement(Icon$1L, { width: "24px", mr: "8px" }),
-        React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + birbPriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
+        React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + labiPriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
-var BirbPrice$1 = React__default['default'].memo(BirbPrice);
+var LabiPrice$1 = React__default['default'].memo(LabiPrice);
 var templateObject_1$c;
 
 var Icons$1 = IconModule;
@@ -4303,7 +4303,7 @@ var Container = styled__default['default'].div(templateObject_1$b || (templateOb
 var SettingsEntry = styled__default['default'].div(templateObject_2$5 || (templateObject_2$5 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled__default['default'].div(templateObject_3$2 || (templateObject_3$2 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, cakePriceUsd = _a.cakePriceUsd, birbPriceUsd = _a.birbPriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, cakePriceUsd = _a.cakePriceUsd, labiPriceUsd = _a.labiPriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
     if (!isPushed) {
         return (React__default['default'].createElement(Container, null,
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -4312,7 +4312,7 @@ var PanelFooter = function (_a) {
     return (React__default['default'].createElement(Container, null,
         React__default['default'].createElement(SocialEntry, null,
             React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
-            React__default['default'].createElement(BirbPrice$1, { birbPriceUsd: birbPriceUsd })),
+            React__default['default'].createElement(LabiPrice$1, { labiPriceUsd: labiPriceUsd })),
         React__default['default'].createElement(SocialEntry, null,
             React__default['default'].createElement(SocialLinks$1, null)),
         React__default['default'].createElement(SettingsEntry, null,
@@ -4382,7 +4382,7 @@ var MobileOnlyOverlay = styled__default['default'](Overlay)(templateObject_5 || 
 });
 var Menu$1 = function (_a) {
     var _b;
-    var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, birbPriceUsd = _a.birbPriceUsd, links = _a.links, children = _a.children;
+    var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, labiPriceUsd = _a.labiPriceUsd, links = _a.links, children = _a.children;
     var _c = useMatchBreakpoints(), isMobile = _c.isMobile, isTablet = _c.isTablet;
     var isSmallerScreen = isMobile || isTablet;
     var _d = React.useState(!isSmallerScreen), isPushed = _d[0], setIsPushed = _d[1];
@@ -4426,7 +4426,7 @@ var Menu$1 = function (_a) {
                 " ",
                 userMenu)),
         React__default['default'].createElement(BodyWrapper, null,
-            React__default['default'].createElement(Panel, { isPushed: isPushed, isMobile: isSmallerScreen, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, birbPriceUsd: birbPriceUsd, pushNav: setIsPushed, links: links }),
+            React__default['default'].createElement(Panel, { isPushed: isPushed, isMobile: isSmallerScreen, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, labiPriceUsd: labiPriceUsd, pushNav: setIsPushed, links: links }),
             React__default['default'].createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React__default['default'].createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };
@@ -4892,7 +4892,6 @@ exports.BalanceInput = BalanceInput;
 exports.BaseLayout = GridLayout$1;
 exports.BinanceChainIcon = Icon$1M;
 exports.BinanceIcon = Icon$1N;
-exports.BirbRoundIcon = Icon$1L;
 exports.BlockIcon = Icon$1Z;
 exports.BnbUsdtPairTokenIcon = Icon$1K;
 exports.Box = Box;
@@ -4944,6 +4943,7 @@ exports.Image = Image;
 exports.InfoIcon = Icon$1Y;
 exports.Input = Input$1;
 exports.InputGroup = InputGroup;
+exports.LabiRoundIcon = Icon$1L;
 exports.LanguageCurrencyIcon = Icon$1l;
 exports.LanguageIcon = Icon$1m;
 exports.LaurelLeftIcon = Icon$1k;

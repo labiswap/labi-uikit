@@ -340,7 +340,7 @@ var Icon$1M = function (props) {
 
 var Icon$1L = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React.createElement("image", { width: "96", height: "96", href: '/images/custom/birb-token.png' })));
+        React.createElement("image", { width: "96", height: "96", href: '/images/custom/labi-token.png' })));
 };
 
 var Icon$1K = function (props) {
@@ -599,8 +599,8 @@ var Icon$1h = function (props) {
 };
 
 var Icon$1g = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 223 223" }, props),
-        React.createElement("image", { width: "223", height: "223", href: '/images/custom/logo.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
+        React.createElement("image", { width: "128", height: "128", href: '/images/custom/logo.png' })));
 };
 
 var Icon$1f = function (props) {
@@ -806,8 +806,8 @@ var Icon$10 = function (props) {
 };
 
 var Icon$$ = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React.createElement("image", { width: "96", height: "96", href: '/images/custom/gbirb-token.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
+        React.createElement("image", { width: "128", height: "128", href: '/images/custom/labis-token.png' })));
 };
 
 var Icon$_ = function (props) {
@@ -3329,7 +3329,7 @@ var additionalColors = {
     silver: "#B2B2B2",
     bronze: "#E7974D",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#8b5b20", textDisabled: "#BDC2C4", textSubtle: "#508be0", disabled: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", cardBorder: "#E7E3EB", contrast: "#191326", dropdown: "#F6F6F6", dropdownDeep: "#EEEEEE", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#8b5b20", textDisabled: "#BDC2C4", textSubtle: "#20a3c1", disabled: "#E9EAEB", gradients: {
         bubblegum: "linear-gradient(139.73deg, #dfe9f9 0%, rgb(243, 239, 255) 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #f9e7cc 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
@@ -3799,8 +3799,8 @@ var Icon$c = function (props) {
 
 var Logo$2 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 256 60" }, props),
-        React.createElement("image", { width: "256", height: "60", href: isDark ? '/images/custom/logo-text-dark.png' : '/images/custom/logo-text-white.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 517 120" }, props),
+        React.createElement("image", { width: "517", height: "120", href: isDark ? '/images/custom/logo-text-dark.png' : '/images/custom/logo-text-white.png' })));
 };
 var LogoWithText = React.memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
@@ -3911,7 +3911,7 @@ MenuButton.defaultProps = {
 var templateObject_1$i;
 
 var blink = keyframes(templateObject_1$h || (templateObject_1$h = __makeTemplateObject(["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"], ["\n  0%,  100% { transform: scaleY(1); } \n  50% { transform:  scaleY(0.1); } \n"])));
-var StyledLink = styled(Link$1)(templateObject_2$8 || (templateObject_2$8 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 170px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 170px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
+var StyledLink = styled(Link$1)(templateObject_2$8 || (templateObject_2$8 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 200px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 46px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 200px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n  .right-eye {\n    animation-delay: 20ms;\n  }\n  &:hover {\n    .left-eye,\n    .right-eye {\n      transform-origin: center 60%;\n      animation-name: ", ";\n      animation-duration: 350ms;\n      animation-iteration-count: 1;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
@@ -4072,32 +4072,32 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/BirbDefi"
+        href: ""
     },
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/birbdefi"
+        href: "https://t.me/Labiswap"
     },
     {
         label: "Medium",
         icon: "MediumIcon",
-        href: "https://medium.com/birb"
+        href: ""
     },
     {
         label: "Instagram",
         icon: "InstagramIcon",
-        href: "https://www.instagram.com/birbdefi/"
+        href: "https://www.instagram.com/labiswap?r=nametag"
     },
     {
         label: "Youtube",
         icon: "YoutubeIcon",
-        href: "https://www.youtube.com/channel/UCofh6d6QSBGdKX9KPZh75SA"
+        href: ""
     },
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/birbdev"
+        href: "https://github.com/labiswap"
     },
 ];
 var MENU_HEIGHT = 64;
@@ -4223,7 +4223,7 @@ var templateObject_1$e;
 var PriceLink$1 = styled.a(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React.createElement(PriceLink$1, { href: "https://bscscan.com/token/0xa8c8b5FD46Ff21C6F482847a4f252C6Af84f54DB", target: "_blank" },
+    return cakePriceUsd ? (React.createElement(PriceLink$1, { href: "https://bscscan.com/token/0x677Cd21610Ca6bfFDE28D14999149820fa26E803", target: "_blank" },
         React.createElement(Icon$$, { width: "24px", mr: "8px" }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4231,13 +4231,13 @@ var CakePrice$1 = React.memo(CakePrice);
 var templateObject_1$d;
 
 var PriceLink = styled.a(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
-var BirbPrice = function (_a) {
-    var birbPriceUsd = _a.birbPriceUsd;
-    return birbPriceUsd ? (React.createElement(PriceLink, { href: "https://bscscan.com/token/0x82a479264b36104be4fdb91618a59a4fc0f50650", target: "_blank" },
+var LabiPrice = function (_a) {
+    var labiPriceUsd = _a.labiPriceUsd;
+    return labiPriceUsd ? (React.createElement(PriceLink, { href: "https://bscscan.com/token/0x75c942034fc4745596d973864994dc1cce38b3ec", target: "_blank" },
         React.createElement(Icon$1L, { width: "24px", mr: "8px" }),
-        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + birbPriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
+        React.createElement(Text, { color: "textSubtle", bold: true }, "$" + labiPriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
-var BirbPrice$1 = React.memo(BirbPrice);
+var LabiPrice$1 = React.memo(LabiPrice);
 var templateObject_1$c;
 
 var Icons$1 = IconModule;
@@ -4289,7 +4289,7 @@ var Container = styled.div(templateObject_1$b || (templateObject_1$b = __makeTem
 var SettingsEntry = styled.div(templateObject_2$5 || (templateObject_2$5 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled.div(templateObject_3$2 || (templateObject_3$2 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, cakePriceUsd = _a.cakePriceUsd, birbPriceUsd = _a.birbPriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, cakePriceUsd = _a.cakePriceUsd, labiPriceUsd = _a.labiPriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang;
     if (!isPushed) {
         return (React.createElement(Container, null,
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -4298,7 +4298,7 @@ var PanelFooter = function (_a) {
     return (React.createElement(Container, null,
         React.createElement(SocialEntry, null,
             React.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }),
-            React.createElement(BirbPrice$1, { birbPriceUsd: birbPriceUsd })),
+            React.createElement(LabiPrice$1, { labiPriceUsd: labiPriceUsd })),
         React.createElement(SocialEntry, null,
             React.createElement(SocialLinks$1, null)),
         React.createElement(SettingsEntry, null,
@@ -4368,7 +4368,7 @@ var MobileOnlyOverlay = styled(Overlay)(templateObject_5 || (templateObject_5 = 
 });
 var Menu$1 = function (_a) {
     var _b;
-    var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, birbPriceUsd = _a.birbPriceUsd, links = _a.links, children = _a.children;
+    var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, labiPriceUsd = _a.labiPriceUsd, links = _a.links, children = _a.children;
     var _c = useMatchBreakpoints(), isMobile = _c.isMobile, isTablet = _c.isTablet;
     var isSmallerScreen = isMobile || isTablet;
     var _d = useState(!isSmallerScreen), isPushed = _d[0], setIsPushed = _d[1];
@@ -4412,7 +4412,7 @@ var Menu$1 = function (_a) {
                 " ",
                 userMenu)),
         React.createElement(BodyWrapper, null,
-            React.createElement(Panel, { isPushed: isPushed, isMobile: isSmallerScreen, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, birbPriceUsd: birbPriceUsd, pushNav: setIsPushed, links: links }),
+            React.createElement(Panel, { isPushed: isPushed, isMobile: isSmallerScreen, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, labiPriceUsd: labiPriceUsd, pushNav: setIsPushed, links: links }),
             React.createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React.createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };
@@ -4862,4 +4862,4 @@ var ResetCSS = createGlobalStyle(templateObject_1 || (templateObject_1 = __makeT
 });
 var templateObject_1;
 
-export { Icon$1X as AddIcon, Alert, Icon$1W as ArrowBackIcon, Icon$1V as ArrowDownIcon, Icon$1U as ArrowDropDownIcon, Icon$1T as ArrowDropUpIcon, Icon$1S as ArrowFirstIcon, Icon$1R as ArrowForwardIcon, Icon$1Q as ArrowLastIcon, Icon$1P as ArrowUpIcon, Icon$1O as AutoRenewIcon, BackgroundImage, BalanceInput, GridLayout$1 as BaseLayout, Icon$1M as BinanceChainIcon, Icon$1N as BinanceIcon, Icon$1L as BirbRoundIcon, Icon$1Z as BlockIcon, Icon$1K as BnbUsdtPairTokenIcon, Box, Breadcrumbs, Icon$1J as BunnyCardsIcon, Icon$1I as BunnyPlaceholderIcon, Button, ButtonMenu$1 as ButtonMenu, ButtonMenuItem, Icon$1F as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$1G as CardViewIcon, Icon$1H as Cards, GridLayout as CardsLayout, Icon$1D as ChartIcon, Checkbox, Icon$1B as CheckmarkCircleFillIcon, Icon$1$ as CheckmarkCircleIcon, Icon$1C as CheckmarkIcon, Icon$1A as ChevronDownIcon, Icon$1z as ChevronLeftIcon, Icon$1y as ChevronRightIcon, Icon$1x as ChevronUpIcon, Icon$1E as CircleOutlineIcon, Icon$1w as CloseIcon, Icon$1v as CogIcon, Icon$1u as Coin98Icon, Icon$1t as CommunityIcon, ConnectorNames, Icon$1s as CopyIcon, Icon$1r as CrownIcon, Icon$1q as CurrencyIcon, Dropdown, Icon$1p as EllipsisIcon, Icon$1_ as ErrorIcon, ExpandableButton, ExpandableLabel, FallingBunnies, Flex, Grid, Heading, Icon$1o as HelpIcon, Icon$1n as HistoryIcon, IconButton, Image, Icon$1Y as InfoIcon, Input$1 as Input, InputGroup, Icon$1l as LanguageCurrencyIcon, Icon$1m as LanguageIcon, Icon$1k as LaurelLeftIcon, Icon$1j as LaurelRightIcon, Link, LinkExternal, Icon$1i as ListViewIcon, Icon$1h as LoginIcon, Icon$1g as LogoIcon, Icon$1f as LogoRoundIcon, Icon$1d as LogoutIcon, Icon$1e as MathWalletIcon, Icon$1c as MedalBronzeIcon, Icon$1b as MedalGoldIcon, Icon$1a as MedalPurpleIcon, Icon$19 as MedalSilverIcon, Icon$18 as MedalTealIcon, Menu$1 as Menu, Message, Icon$17 as MetamaskIcon, Icon$16 as MinusIcon, Modal, ModalBackButton, ModalBody, ModalCloseButton, ModalContainer, ModalHeader, ModalProvider, ModalTitle, Icon$15 as MoreHorizontalIcon, Icon$14 as MoreVerticalIcon, Icon$13 as NoProfileAvatarIcon, NotificationDot, Icon$12 as OpenNewIcon, Overlay, Icon$$ as PancakeRoundIcon, PancakeToggle, Icon$11 as PancakesIcon, Icon$10 as PencilIcon, Icon$Z as PlayCircleOutlineIcon, Icon$_ as PocketWatchIcon, Icon$Y as PredictionsIcon, Icon$S as PresentCheckIcon, Icon$Q as PresentNoneIcon, Icon$R as PresentWonIcon, Icon$X as PrizeIcon, ProfileAvatar, Progress, Icon$T as ProgressBunny, Icon$W as ProposalIcon, Radio, Icon$P as RefreshIcon, Icon$V as RemoveIcon, ResetCSS, Icon$O as SafePalIcon, Icon$N as SearchIcon, Skeleton, Slider, Icon$M as SmallDotIcon, Spinner, Icon$L as StarFillIcon, Icon$K as StarLineIcon, Step, Stepper, SubMenu, SubMenuItem, Svg, Icon$J as SwapIcon, Icon$I as SwapVertIcon, Icon$H as SyncAltIcon, Tab, ButtonMenu as TabMenu, Table, Tag, Td, Icon$G as TeamPlayerIcon, Icon$F as TestnetIcon, Text, Th, Icon$E as Ticket, Icon$D as TicketFillIcon, Icon$C as TicketRound, Icon$B as TimerIcon, ToastContainer, Toggle, TokenImage, TokenPairImage, Icon$A as TokenPocketIcon, TooltipText, Icon$z as TrophyGoldIcon, Icon$y as TrustWalletIcon, Icon$x as TuneIcon, UserMenu, UserMenuDivider, UserMenuItem, Icon$U as VerifiedIcon, Icon$w as VisibilityOff, Icon$v as VisibilityOn, Icon$u as VolumeOffIcon, Icon$t as VolumeUpIcon, Icon$s as VoteIcon, Icon$n as WaitIcon, Icon$q as WalletConnectIcon, Icon$o as WalletFilledIcon, Icon$p as WalletIcon, Icon$r as WarningIcon, variants$5 as alertVariants, byTextAscending, byTextDescending, connectorLocalStorageKey, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, status as menuStatus, types as toastTypes, useKonamiCheatCode, useMatchBreakpoints, useModal, useParticleBurst, useTable, useTooltip, useWalletModal };
+export { Icon$1X as AddIcon, Alert, Icon$1W as ArrowBackIcon, Icon$1V as ArrowDownIcon, Icon$1U as ArrowDropDownIcon, Icon$1T as ArrowDropUpIcon, Icon$1S as ArrowFirstIcon, Icon$1R as ArrowForwardIcon, Icon$1Q as ArrowLastIcon, Icon$1P as ArrowUpIcon, Icon$1O as AutoRenewIcon, BackgroundImage, BalanceInput, GridLayout$1 as BaseLayout, Icon$1M as BinanceChainIcon, Icon$1N as BinanceIcon, Icon$1Z as BlockIcon, Icon$1K as BnbUsdtPairTokenIcon, Box, Breadcrumbs, Icon$1J as BunnyCardsIcon, Icon$1I as BunnyPlaceholderIcon, Button, ButtonMenu$1 as ButtonMenu, ButtonMenuItem, Icon$1F as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$1G as CardViewIcon, Icon$1H as Cards, GridLayout as CardsLayout, Icon$1D as ChartIcon, Checkbox, Icon$1B as CheckmarkCircleFillIcon, Icon$1$ as CheckmarkCircleIcon, Icon$1C as CheckmarkIcon, Icon$1A as ChevronDownIcon, Icon$1z as ChevronLeftIcon, Icon$1y as ChevronRightIcon, Icon$1x as ChevronUpIcon, Icon$1E as CircleOutlineIcon, Icon$1w as CloseIcon, Icon$1v as CogIcon, Icon$1u as Coin98Icon, Icon$1t as CommunityIcon, ConnectorNames, Icon$1s as CopyIcon, Icon$1r as CrownIcon, Icon$1q as CurrencyIcon, Dropdown, Icon$1p as EllipsisIcon, Icon$1_ as ErrorIcon, ExpandableButton, ExpandableLabel, FallingBunnies, Flex, Grid, Heading, Icon$1o as HelpIcon, Icon$1n as HistoryIcon, IconButton, Image, Icon$1Y as InfoIcon, Input$1 as Input, InputGroup, Icon$1L as LabiRoundIcon, Icon$1l as LanguageCurrencyIcon, Icon$1m as LanguageIcon, Icon$1k as LaurelLeftIcon, Icon$1j as LaurelRightIcon, Link, LinkExternal, Icon$1i as ListViewIcon, Icon$1h as LoginIcon, Icon$1g as LogoIcon, Icon$1f as LogoRoundIcon, Icon$1d as LogoutIcon, Icon$1e as MathWalletIcon, Icon$1c as MedalBronzeIcon, Icon$1b as MedalGoldIcon, Icon$1a as MedalPurpleIcon, Icon$19 as MedalSilverIcon, Icon$18 as MedalTealIcon, Menu$1 as Menu, Message, Icon$17 as MetamaskIcon, Icon$16 as MinusIcon, Modal, ModalBackButton, ModalBody, ModalCloseButton, ModalContainer, ModalHeader, ModalProvider, ModalTitle, Icon$15 as MoreHorizontalIcon, Icon$14 as MoreVerticalIcon, Icon$13 as NoProfileAvatarIcon, NotificationDot, Icon$12 as OpenNewIcon, Overlay, Icon$$ as PancakeRoundIcon, PancakeToggle, Icon$11 as PancakesIcon, Icon$10 as PencilIcon, Icon$Z as PlayCircleOutlineIcon, Icon$_ as PocketWatchIcon, Icon$Y as PredictionsIcon, Icon$S as PresentCheckIcon, Icon$Q as PresentNoneIcon, Icon$R as PresentWonIcon, Icon$X as PrizeIcon, ProfileAvatar, Progress, Icon$T as ProgressBunny, Icon$W as ProposalIcon, Radio, Icon$P as RefreshIcon, Icon$V as RemoveIcon, ResetCSS, Icon$O as SafePalIcon, Icon$N as SearchIcon, Skeleton, Slider, Icon$M as SmallDotIcon, Spinner, Icon$L as StarFillIcon, Icon$K as StarLineIcon, Step, Stepper, SubMenu, SubMenuItem, Svg, Icon$J as SwapIcon, Icon$I as SwapVertIcon, Icon$H as SyncAltIcon, Tab, ButtonMenu as TabMenu, Table, Tag, Td, Icon$G as TeamPlayerIcon, Icon$F as TestnetIcon, Text, Th, Icon$E as Ticket, Icon$D as TicketFillIcon, Icon$C as TicketRound, Icon$B as TimerIcon, ToastContainer, Toggle, TokenImage, TokenPairImage, Icon$A as TokenPocketIcon, TooltipText, Icon$z as TrophyGoldIcon, Icon$y as TrustWalletIcon, Icon$x as TuneIcon, UserMenu, UserMenuDivider, UserMenuItem, Icon$U as VerifiedIcon, Icon$w as VisibilityOff, Icon$v as VisibilityOn, Icon$u as VolumeOffIcon, Icon$t as VolumeUpIcon, Icon$s as VoteIcon, Icon$n as WaitIcon, Icon$q as WalletConnectIcon, Icon$o as WalletFilledIcon, Icon$p as WalletIcon, Icon$r as WarningIcon, variants$5 as alertVariants, byTextAscending, byTextDescending, connectorLocalStorageKey, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, status as menuStatus, types as toastTypes, useKonamiCheatCode, useMatchBreakpoints, useModal, useParticleBurst, useTable, useTooltip, useWalletModal };
