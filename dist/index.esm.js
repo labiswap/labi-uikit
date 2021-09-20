@@ -4223,7 +4223,7 @@ var templateObject_1$e;
 var PriceLink$1 = styled.a(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React.createElement(PriceLink$1, { href: "https://bscscan.com/token/0x677Cd21610Ca6bfFDE28D14999149820fa26E803", target: "_blank" },
+    return cakePriceUsd ? (React.createElement(PriceLink$1, { href: "https://bscscan.com/token/0x905852c100E1A18C9B64fe6f1C2eB2Ad7c6665B0", target: "_blank" },
         React.createElement(Icon$$, { width: "24px", mr: "8px" }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
