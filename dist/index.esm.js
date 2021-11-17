@@ -4233,7 +4233,7 @@ var templateObject_1$d;
 var PriceLink = styled.a(templateObject_1$c || (templateObject_1$c = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var LabiPrice = function (_a) {
     var labiPriceUsd = _a.labiPriceUsd;
-    return labiPriceUsd ? (React.createElement(PriceLink, { href: "https://bscscan.com/token/0x75c942034fc4745596d973864994dc1cce38b3ec", target: "_blank" },
+    return labiPriceUsd ? (React.createElement(PriceLink, { href: "https://bscscan.com/token/0x832ee11811a5b66d33478223a618fd897425b9b4", target: "_blank" },
         React.createElement(Icon$1L, { width: "24px", mr: "8px" }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + labiPriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };

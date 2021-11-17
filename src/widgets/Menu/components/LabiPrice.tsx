@@ -24,7 +24,7 @@ const PriceLink = styled.a`
 const LabiPrice: React.FC<Props> = ({ labiPriceUsd }) => {
   return labiPriceUsd ? (
     <PriceLink
-      href="https://bscscan.com/token/0x75c942034fc4745596d973864994dc1cce38b3ec"
+      href="https://bscscan.com/token/0x832ee11811a5b66d33478223a618fd897425b9b4"
       target="_blank"
     >
       <LabiRoundIcon width="24px" mr="8px" />
